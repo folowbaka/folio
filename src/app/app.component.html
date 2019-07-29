@@ -17,7 +17,7 @@
       <a mat-button >Contact</a>
     </div>
   </mat-toolbar>
-  <mat-sidenav-container fxFlexFill class="example-container">
+  <mat-sidenav-container fxFlexFill class="">
     <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over" opened="false" fxHide.gt-sm="true">
       <div fxLayout="column">
         <a mat-button >Formations</a>
@@ -27,8 +27,11 @@
       </div>
     </mat-sidenav>
     <mat-sidenav-content fxFlexFill>
-      <app-myself></app-myself>
-      <mat-divider></mat-divider>
+      <div fxLayout="column" >
+        <app-myself></app-myself>
+        <mat-divider></mat-divider>
+        <app-formations></app-formations>
+      </div>
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>

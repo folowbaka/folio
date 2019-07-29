@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import {MatButtonModule, MatSidenavModule, MatToolbarModule, MatIconModule, MatCardModule, MatDividerModule} from '@angular/material';
 import {RouterModule, Routes} from '@angular/router';
 import { MyselfComponent } from './myself/myself.component';
+import { FormationsComponent } from './formations/formations.component';
 
 const appRoutes: Routes = [
   { path: '',
@@ -19,6 +20,7 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     MyselfComponent,
+    FormationsComponent,
   ],
   imports: [
     BrowserModule,

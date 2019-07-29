@@ -1,5 +1,9 @@
 .example-card {
-  max-width: 400px;
+  max-width: 150px;
   align-content: center;
 }
 
+#cvimage
+{
+  max-height: 400px;
+}
